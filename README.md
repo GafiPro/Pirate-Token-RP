@@ -1,6 +1,6 @@
 # Pirate Token RP 🏴‍☠️
 
-Um resource pack para Minecraft Java que substitui os ícones da barra de vida por Pirate Tokens, usando o emblema fornecido como ícone do pack.
+Um resource pack para Minecraft Java que substitui os ícones da barra de vida pela imagem original do Pirate Token.
 
 ## Compatibilidade
 
@@ -9,7 +9,7 @@ Um resource pack para Minecraft Java que substitui os ícones da barra de vida p
 
 ## Instalação
 
-1. Descarrega `Pirate-Token-RP.zip` (ou cria um ZIP da pasta do pack).
+1. Descarrega `Pirate-Token-RP.zip`.
 2. No Minecraft, abre **Opções → Pacotes de recursos → Abrir pasta de pacotes**.
 3. Copia o ZIP para essa pasta e ativa **Pirate Token RP**.
 
@@ -21,8 +21,6 @@ pack.png
 assets/minecraft/textures/gui/sprites/hud/heart/
 ```
 
-Os sprites de HUD são desenhados a 9×9 píxeis para manter o tamanho normal dos corações. Os estados especiais preservam a silhueta do token e usam pequenas variações de cor para continuarem distinguíveis.
+Os sprites de HUD usam diretamente a imagem original fornecida, reduzida para 9×9 píxeis. Os meios-tokens são feitos através de um corte vertical da mesma imagem; não há redesenho nem recoloração. Os estados especiais reutilizam a mesma imagem do token.
 
-## Notas
-
-Este pack altera apenas as texturas dos corações/ícones de vida. Não altera a vida do jogador nem as mecânicas do jogo.
+Este pack altera apenas as texturas dos corações/ícones de vida, não as mecânicas do jogo.
